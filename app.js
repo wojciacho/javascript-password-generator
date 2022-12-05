@@ -13,7 +13,10 @@ inputs.forEach((item) => {
   item.addEventListener("click", generateMethods);
 });
 
-generateEl.addEventListener("click", generatePassword);
+generateEl.addEventListener("click", () => {
+  generatePassword();
+  copyEl.disabled = false;
+});
 copyEl.addEventListener("click", copyToClipboard);
 
 function generatePassword() {
