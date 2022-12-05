@@ -146,9 +146,6 @@ button:focus {
 }
 @media screen and (min-width: 1024px) {
   .container {
-    max-width: 1280px;
+    max-width: 50vw;
   }
-  .section-header {
-    font-size: 32px;
-  }
-}
+} 
