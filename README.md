@@ -1,1 +1,6 @@
-# javascript-password-generator
+# Javascript Small Project
+
+## Vanilla Javascript
+
+Simple project build in Vanilla Javascript. It is random password generator.
+To use this app just check which option do you want and click generate!
